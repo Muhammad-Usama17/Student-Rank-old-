@@ -39,9 +39,6 @@ section{
 div.outer{
     padding: 0;
     margin-bottom: 40px;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
 }
 input{
     padding: 10px 3px;
