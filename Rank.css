@@ -178,12 +178,12 @@ table#tbl tr td{
     input#namein{
         width: 300px;
         font-size: 24px;
-        padding: 20px 6px;
+        padding: 30px 6px;
     }
     input#rankin, input#degree{
         width: 200px;
         font-size: 24px;
-        padding: 20px 6px;
+        padding: 30px 6px;
     }
     .btn{
         font-family: "Oswald";
