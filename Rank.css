@@ -176,7 +176,7 @@ table#tbl tr td{
         margin-top: 60px;
     }
     input#namein{
-        width: 400px;
+        width: 350px;
         font-size: 24px;
         padding: 20px 6px;
     }
@@ -186,7 +186,7 @@ table#tbl tr td{
         padding: 20px 6px;
     }
     .btn{
-        font-size: 10px;
+        font-size: 24px;
         padding: 20px 40px;
         margin-left: 20px;
     }
