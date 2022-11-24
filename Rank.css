@@ -12,11 +12,11 @@
 }
 @font-face {
     font-family: "Oswald";
-    src: url(Fonts/Oswald.TTF);
+    src: url(Fonts/Oswald.ttf);
 }
 @font-face {
     font-family: "Roboto";
-    src: url(Fonts/Roboto.TTF);
+    src: url(Fonts/Roboto.ttf);
 }
 body{
     background-color: #F0F0FF;
