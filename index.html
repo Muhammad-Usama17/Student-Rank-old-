@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Rank.css">
+        <title>Rank</title>
+    </head>
+    <body>
+        <h1 id="title">1st Communications & Computer</h1>
+        <hr class="init">
+        <h1 class="title">Search by name</h1>
+        <section>
+            <div class="outer">
+                <input type="text" placeholder="Name" id="namein" onblur="focus_out1()">
+                <button onclick="name_search()" id="btn3" class="btn anim">Search</button>
+                <button onclick="name_search_all()" id="btn4" class="btn anim">Search all</button>
+                <pre id="note">*Hit Enter twice to search all*</pre>
+            </div>
+            <h2 id="error3"></h2>
+            <pre id="mes6">Name : </pre><pre id="name3"></pre>
+            <h2 id="mes7">Degree : <span id="degree3"></span></h2>
+            <h2 id="mes8">Rank : <span id="rank3"></span></h2>
+            <table id="tbl">
+                <tr>
+                    <th class="tbl_head rank">Rank</th>
+                    <th class="tbl_head deg">Degree</th>
+                    <th class="tbl_head name_head">Name</th>
+                    <th class="num"></th>
+                </tr>
+            </table>
+        </section>
+        <hr class="mid">
+        <h1 class="title">Search by rank</h1>
+        <section>
+            <div class="outer">
+                <input type="number" min="0" placeholder="Rank" id="rankin" onblur="focus_out2()">
+                <button onclick="rank_search()" id="btn2" class="btn anim">Search</button>
+            </div>
+            <h2 id="error2"></h2>
+            <pre id="mes3">Name : </pre><pre id="name2"></pre>
+            <h2 id="mes4">Degree : <span id="degree2"></span></h2>
+            <h2 id="mes5">Rank : <span id="rank2"></span></h2>
+        </section>
+        <hr class="mid">
+        <h1 class="title">Search by degree</h1>
+        <section>
+            <div class="outer">
+                <input type="number" min="0" placeholder="Degree" id="degree" onblur="focus_out3()">
+                <button onclick="degree_search()" id="btn" class="btn anim">Search</button>
+            </div>
+            <h2 id="error"></h2>
+            <pre id="mes0">Name : </pre><pre id="name"></pre>
+            <h2 id="mes1">Degree : <span id="degree1"></span></h2>
+            <h2 id="mes2">Rank : <span id="rank"></span></h2>
+        </section>
+        <hr class="fin">
+        
+
+        <script src="Rank.js"></script>
+    </body>
+</html>
